@@ -1,7 +1,4 @@
-/*eslint-disable */
-
-import withCounter from "./HOC/withCounter";
-
+/*eslint-disable*/
 const ClickCounter = ({ count, incrementCount, hover, incrementHover }) => {
   return (
     <>
@@ -16,4 +13,4 @@ const ClickCounter = ({ count, incrementCount, hover, incrementHover }) => {
   );
 };
 
-export default withCounter(ClickCounter);
+export default ClickCounter;
